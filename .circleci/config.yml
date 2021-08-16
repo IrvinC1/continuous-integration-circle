@@ -4,7 +4,7 @@ executors:
     docker:
       - image: githubtraining/ci-custom:latest
 jobs:
-  build:
+  build: 
     executor: ci-executor
     steps:
       - checkout
